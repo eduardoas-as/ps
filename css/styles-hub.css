@@ -1,0 +1,379 @@
+
+body {
+    font-family:'Avenir Next Condensed';
+    color: #000000;
+    font-family: 'HelveticaNeue-UltraLight';   
+}
+@font-face{
+  font-family:'Avenir Next Condensed';
+  src: url(Avenir Next Condensed.ttf) format(ttf);
+}
+
+
+.menu{
+    float: left;
+}
+.menu li{
+    float: left;
+    margin-right: 3px;
+}
+.menu li.active a,.menu li a:hover{
+    color: #FED136;
+}
+.menu li a{
+    font-size: 0.95em;
+    color: #0A4649;
+    font-family: Avenir Next Condensed, sans-serif;
+    margin:0px 3px;
+    font-weight: 100;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+h1 img {
+	margin-right: 5px;
+    text-align: center;
+}
+
+h1 {
+	line-height: 86px;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+#wrapper {
+    width: 1024px;
+    margin: 33px auto;
+    position: relative;
+}
+.logo
+{
+    text-align: center;
+}
+
+.ads {
+    position: absolute;
+	top: 33px;
+	right: 0;
+}
+
+#contenedorLinks {
+    background-color: #fffffe;
+    height: 630px;
+    width: 740px;
+    margin: 0 auto;
+    margin-top: 85px;
+    float: left;
+    margin-left: 95px;
+}
+#closeDisplayLinks {
+    text-align: right;
+    margin-top: 1px;
+    height: 35px;
+    margin-bottom: 4px;
+    /*background-image: url(../images/Close-On.png);
+    background-repeat: no-repeat;
+    background-position: top right;*/
+
+}
+
+
+#extension {
+background-color: #fffffd;
+height: 630px;
+width: 140px;
+margin-top: 50px;
+float: left;
+margin-left: 40px;
+}
+
+
+/*Title page*/
+
+.linksMenu{
+    float: left;
+}
+.linksMenu li{
+    float: left;
+    margin-right: 0px;
+}
+.linksMenu li.active a,.linksMenu li a:hover{
+    color: #FED136;
+}
+.linksMenu li a{
+    font-size: 0.80em;
+    color: #0A4649;
+    font-family: Avenir Next Condensed, sans-serif;
+    margin:0px 0px;
+    /*font-weight: 600;*/
+}
+
+
+.spanMexico
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    /*border: 1px solid #E36170;*/
+    line-height:100px;
+    font-size: 60pt;
+    letter-spacing: 20px;
+    color: #E36170;
+    margin-right: 20px;
+}
+.spanMexico a:hover
+{
+ color: #000000;
+}
+#LinksMexico
+{
+    color: #E36170;
+}
+
+.spanLinconln
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    line-height:100px;
+    font-size: 60pt;
+    letter-spacing: 20px;
+    color: #808285;
+}
+.spanLinconln a:hover
+{
+ color: #000000;
+}
+#LinksLincoln
+{
+    color: #808285;
+}
+
+.spanVenezuela
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    line-height:85px;
+    letter-spacing: 20px;
+    font-size: 54pt;
+    color: #E3BD59;
+}
+.spanVenezuela a:hover
+{
+ color: #000000;
+}
+#LinksVenezuela
+{
+    color: #E3BD59;
+}
+.spanBrasil
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    line-height:85px;
+    font-size: 60pt;
+    letter-spacing: 20px;
+    color: #21B899;
+}
+.spanBrasil a:hover
+{
+ color: #000000;
+}
+#LinksBrasil
+{
+    color: #21B899;
+}
+
+.spanBrasilCamiones
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    line-height:95px;
+    font-size: 60pt;
+    letter-spacing: 17px;
+    color: #21B899;
+}
+.spanBrasilCamiones a:hover
+{
+ color: #000000;
+}
+#LinksBrasilC
+{
+    color: #21B899;
+}
+.spanEcuador
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    line-height:80px;
+    font-size: 55pt;
+    letter-spacing: 16px;
+    color: #E36170;
+}
+.spanEcuador a:hover
+{
+ color: #000000;
+}
+#LinksEcuador
+{
+    color: #E36170;
+}
+
+.spanColombia
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    line-height:80px;
+    font-size: 55pt;
+    letter-spacing: 16px;
+    color: #4261AB;
+}
+.spanColombia a:hover
+{
+ color: #000000;
+}
+#LinksColombia
+{
+    color: #4261AB;
+}
+
+
+.spanChile
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    line-height:80px;
+    letter-spacing: 25px;
+    font-size: 50pt;
+    color: #4261AB;
+}
+.spanChile a:hover
+{
+ color: #000000;
+}
+#LinksChile
+{
+    color: #4261AB;
+}
+.spanArgentina
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    line-height:80px;
+    font-size: 55pt;
+    letter-spacing: 21px;
+    color: #12ADB0;
+    margin-right: 10px;
+}
+.spanArgentina a:hover
+{
+ color: #000000;
+}
+#LinksArgentina
+{
+    color: #12ADB0;
+}
+
+.spanFso
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    line-height:80px;
+    /*border: 1px solid #E36170;*/
+    font-size: 50pt;
+    letter-spacing: 10px;
+    color: #E36170;
+    margin-right: 8px;
+}
+.spanFso a:hover
+{
+ color: #000000;
+}
+#LinksFso
+{
+    color: #E36170;
+}
+
+.spanMotorcraft
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    line-height:80px;
+    letter-spacing: 10px;
+    font-size: 54pt;
+    color: #AB698F;
+}
+.spanMotorcraft a:hover
+{
+ color: #000000;
+}
+#LinksMotorcraft
+{
+    color: #AB698F;
+}
+.spanPeru
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: relative;
+    line-height:80px;
+    letter-spacing: 10px;
+    font-size: 50pt;
+    color: #FF8000;
+    margin-right: 7px;
+}
+.spanPeru a:hover
+{
+ color: #000000;
+}
+#LinksPeru
+{
+    color: #FF8000;
+}
+
+.lavalamp {
+    font-family: 'Avenir Next Ultralight', sans-serif;
+    position: relative;
+    border: 1px solid #FFFFFF;
+    background: #fff;
+    padding: 15px;
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(255,255,255)), to(rgb(255,255,255)));
+    background : -moz-gradient(linear, left top, left bottom, from(rgb(255,255,255)), to(rgb(255,255,255)));
+    height: 25px;
+}
+
+.white {
+	background : rgb(255,255,255);
+	background : -webkit-gradient(linear, left top, left bottom, from(rgb(255,255,255)), to(rgb(255,255,255)));
+	background : -moz-gradient(linear, left top, left bottom, from(rgb(255,255,255)), to(rgb(255,255,255)));
+	border: 1px solid #FFFFFF;
+	
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+    line-height: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    z-index: 300;
+    position: absolute;
+}
+
+ul li {
+    list-style: none;
+    float:left;
+    text-align: center;
+    }
+
+ul li a {
+    padding: 0 20px;
+    text-align: center;
+    }
+
