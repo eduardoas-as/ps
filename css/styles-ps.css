@@ -63,7 +63,7 @@ h1, h2 {
 }
 
 #contenedorLinks {
-    background-color: #fffffe;
+    background-color: #ffff00;
     height: 630px;
     width: 740px;
     margin: 0 auto;
@@ -82,15 +82,6 @@ h1, h2 {
 
 }
 
-
-#extension {
-background-color: #fffffd;
-height: 630px;
-width: 140px;
-margin-top: 50px;
-float: left;
-margin-left: 40px;
-}
 
 
 /*Title page*/
@@ -122,16 +113,16 @@ margin-left: 40px;
     line-height:100px;
     font-size: 60pt;
     letter-spacing: 20px;
-    color: #E36170;
+    color: #000000;
     margin-right: 20px;
 }
 .spanMexico a:hover
 {
- color: #000000;
+ color: #FFFFFF;
 }
 #LinksMexico
 {
-    color: #E36170;
+    color: #000000;
 }
 
 .spanLinconln
@@ -336,7 +327,7 @@ margin-left: 40px;
 .lavalamp {
     font-family: 'Avenir Next Ultralight', sans-serif;
     position: relative;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #FFFF00;
     background: #fff;
     padding: 15px;
     background : -webkit-gradient(linear, left top, left bottom, from(rgb(255,255,255)), to(rgb(255,255,255)));
@@ -348,7 +339,7 @@ margin-left: 40px;
 	background : rgb(255,255,255);
 	background : -webkit-gradient(linear, left top, left bottom, from(rgb(255,255,255)), to(rgb(255,255,255)));
 	background : -moz-gradient(linear, left top, left bottom, from(rgb(255,255,255)), to(rgb(255,255,255)));
-	border: 1px solid #FFFFFF;
+	border: 1px solid #FFFF00;
 	
 }
 
